@@ -1,6 +1,6 @@
 # Tabbye
 
-[![Checks](https://github.com/OWNER/tabbye/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/tabbye/actions/workflows/ci.yml)
+[![Checks](https://github.com/shas22/tabbye/actions/workflows/ci.yml/badge.svg)](https://github.com/shas22/tabbye/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 **Bye, tabs. Not your links.**

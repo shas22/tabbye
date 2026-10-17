@@ -14,7 +14,7 @@ Tabbye runs entirely in your browser. It has no server, accounts, or network req
 
 ## Reporting a vulnerability
 
-Please report privately through GitHub's [private vulnerability reporting](https://github.com/OWNER/tabbye/security/advisories/new) rather than in a public issue.
+Please report privately through GitHub's [private vulnerability reporting](https://github.com/shas22/tabbye/security/advisories/new) rather than in a public issue.
 
 Include the browser and version, operating system, Tabbye version, and steps to reproduce. Replace private URLs and titles with harmless examples, and do not attach a personal archive or browser profile.
 

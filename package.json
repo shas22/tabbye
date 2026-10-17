@@ -11,14 +11,14 @@
     "productivity",
     "wxt"
   ],
-  "homepage": "https://github.com/OWNER/tabbye#readme",
-  "bugs": "https://github.com/OWNER/tabbye/issues",
+  "homepage": "https://github.com/shas22/tabbye#readme",
+  "bugs": "https://github.com/shas22/tabbye/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/tabbye.git"
+    "url": "git+https://github.com/shas22/tabbye.git"
   },
   "license": "MIT",
-  "author": "AUTHOR",
+  "author": "shas22",
   "engines": {
     "node": ">=22.12.0"
   },
