@@ -1,0 +1,9 @@
+node_modules/
+.wxt/
+.output/
+coverage/
+playwright-report/
+test-results/
+.DS_Store
+*.local
+notes/

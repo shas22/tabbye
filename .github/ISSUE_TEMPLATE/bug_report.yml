@@ -1,0 +1,57 @@
+name: Bug report
+description: Something in Tabbye does not work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please replace any private URLs or page titles with harmless examples, and do not attach your archive or browser profile.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the popup
+        2. Choose …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include any error message Tabbye shows.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 141
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: macOS 26.0
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tabbye version
+      description: Shown on chrome://extensions.
+      placeholder: 0.1.0
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I removed private URLs, page titles, and personal data from this report.
+          required: true

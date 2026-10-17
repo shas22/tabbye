@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tabbye compatibility fixture</title>
+  </head>
+  <body>
+    <h1>Tabbye compatibility fixture</h1>
+    <p>
+      Local test content with no audio, redirects, or background activity. Open
+      the subject tabs required by the checklist, then use the browser's own
+      interface to pin, stack, move, tile, or hibernate them.
+    </p>
+    <ul>
+      <li>
+        <a href="?case=subject-a" target="_blank" rel="noopener">Subject A</a>
+      </li>
+      <li>
+        <a href="?case=subject-b" target="_blank" rel="noopener">Subject B</a>
+      </li>
+      <li>
+        <a href="?case=ordinary-control" target="_blank" rel="noopener"
+          >Ordinary control (must close)</a
+        >
+      </li>
+    </ul>
+    <script>
+      const name = new URLSearchParams(location.search).get('case') ?? 'index';
+      document.title = `Tabbye fixture: ${name}`;
+      document.querySelector('h1').textContent = document.title;
+    </script>
+  </body>
+</html>
